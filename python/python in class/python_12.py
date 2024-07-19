@@ -20,8 +20,8 @@ def practice1():
         print("\nRemoving the last element from the list and the final list:")
         print(square_numbers)
 
-        choice = input("\nEnter 'm' to return to main menu: ")
-        if choice.lower() == 'm':
+        choice = input("\nEnter 'quit' to return to main menu: ")
+        if choice.lower() == 'quit':
             break
 
 
@@ -47,8 +47,8 @@ def practice2():
         print(first_10_numbers)
         print(last_5_numbers)
 
-        choice = input("\nEnter 'm' to return to main menu: ")
-        if choice.lower() == 'm':
+        choice = input("\nEnter 'quit' to return to main menu: ")
+        if choice.lower() == 'quit':
             break
 
 
@@ -67,8 +67,8 @@ def practice3():
         print(odd_numbers)
         print(square_odd_numbers)
 
-        choice = input("\nEnter 'm' to return to main menu: ")
-        if choice.lower() == 'm':
+        choice = input("\nEnter 'quit' to return to main menu: ")
+        if choice.lower() == 'quit':
             break
 
 
@@ -82,8 +82,8 @@ def practice4():
         print("\nThird continent in the tuple")
         print(continents[2])
 
-        choice = input("\nEnter 'm' to return to main menu: ")
-        if choice.lower() == 'm':
+        choice = input("\nEnter 'quit' to return to main menu: ")
+        if choice.lower() == 'quit':
             break
 
 
@@ -100,8 +100,8 @@ def practice5():
         print(number)
         print(decimal)
 
-        choice = input("\nEnter 'm' to return to main menu: ")
-        if choice.lower() == 'm':
+        choice = input("\nEnter 'quit' to return to main menu: ")
+        if choice.lower() == 'quit':
             break
 
 
@@ -122,8 +122,8 @@ def practice6():
         print(second_element)
         print(first_element)
 
-        choice = input("\nEnter 'm' to return to main menu: ")
-        if choice.lower() == 'm':
+        choice = input("\nEnter 'quit' to return to main menu: ")
+        if choice.lower() == 'quit':
             break
 
 
@@ -143,8 +143,8 @@ def practice7():
         print("\nUnion of the sets:", union)
         print("\nIntersection of the sets:", intersection)
 
-        choice = input("\nEnter 'm' to return to main menu: ")
-        if choice.lower() == 'm':
+        choice = input("\nEnter 'quit' to return to main menu: ")
+        if choice.lower() == 'quit':
             break
 
 
@@ -164,8 +164,8 @@ def practice8():
 
         print("\nFinal set: ", primenum)
 
-        choice = input("\nEnter 'm' to return to main menu: ")
-        if choice.lower() == 'm':
+        choice = input("\nEnter 'quit' to return to main menu: ")
+        if choice.lower() == 'quit':
             break
 
 
@@ -183,8 +183,8 @@ def practice9():
         print("\nIs 'e' in the set? ", check_e)
         print("\nIs 'x' in the set? ", check_x)
 
-        choice = input("\nEnter 'm' to return to main menu: ")
-        if choice.lower() == 'm':
+        choice = input("\nEnter 'quit' to return to main menu: ")
+        if choice.lower() == 'quit':
             break
 
 
@@ -203,8 +203,8 @@ def practice10():
 
         print("\nFinal Dictionary: ", student)
 
-        choice = input("\nEnter 'm' to return to main menu: ")
-        if choice.lower() == 'm':
+        choice = input("\nEnter 'quit' to return to main menu: ")
+        if choice.lower() == 'quit':
             break
 
 
@@ -223,8 +223,8 @@ def practice11():
 
         print("\nFinal dictionary: ", cities)
 
-        choice = input("\nEnter 'm' to return to main menu: ")
-        if choice.lower() == 'm':
+        choice = input("\nEnter 'quit' to return to main menu: ")
+        if choice.lower() == 'quit':
             break
 
 
@@ -244,8 +244,8 @@ def practice12():
         countries['USA']['population'] = 551456891
         print("\nFinal dictionary: ", countries)
 
-        choice = input("\nEnter 'm' to return to main menu: ")
-        if choice.lower() == 'm':
+        choice = input("\nEnter 'quit' to return to main menu: ")
+        if choice.lower() == 'quit':
             break
 
 
