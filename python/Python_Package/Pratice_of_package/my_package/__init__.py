@@ -1,0 +1,2 @@
+# from .module1 import vots       #it means i told to package(folder name my_package) that 'vots' is method(function) that will return something. with the help of this there will no need for module1.py file. directaly we can uses package.method() which you can see in main.py file.
+# from .module2 import hitech
