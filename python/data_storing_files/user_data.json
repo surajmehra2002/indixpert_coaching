@@ -1,1 +1,57 @@
-[{"id": 12, "Name": "suraj", "Address": "bageshwar", "Age": 21, "Number": 9634912165}, {"id": 15, "Name": "neeraj", "Address": "kapkot", "Age": 19, "Number": 8077414663}, {"id": 21, "Name": "yogesh", "Address": "pankar", "Age": 24, "Number": 9634377090}, {"id": 1, "Name": "neelam", "Address": "bharari", "Age": 28, "Number": 9761914517}, {"id": 12, "Name": "manoj", "Address": "kapkot", "Age": 18, "Number": 8077414663}, {"id": 10, "Name": "mohit", "Address": "kapkot", "Age": 12, "Number": 9898989898}]
+[
+  {
+    "id": 18,
+    "Name": "suraj mehra",
+    "Address": "bageshwar",
+    "Age": 21,
+    "Number": 9634912165,
+    "Qualification": [
+      { "qualificationname": "10th", "passingyear": 2018, "percentage": 78 },
+      { "qualificationname": "12th", "passingyear": 2020, "percentage": 82 }
+    ]
+  },
+  {
+    "id": 25,
+    "Name": "neeraj",
+    "Address": "kapkot",
+    "Age": 21,
+    "Number": 9898989898,
+    "Qualification": [
+      { "qualificationname": "10th", "passingyear": 2018, "percentage": 72 },
+      { "qualificationname": "12th", "passingyear": 2020, "percentage": 86 }
+    ]
+  },
+  {
+    "id": 102,
+    "Name": "vimal",
+    "Address": "ason",
+    "Age": 22,
+    "Number": 9898989898,
+    "Qualification": [
+      { "qualificationname": "10th", "passingyear": 2018, "percentage": 62 },
+      { "qualificationname": "12th", "passingyear": 2020, "percentage": 50 }
+    ]
+  },
+  {
+    "id": 19,
+    "Name": "karan",
+    "Address": "pankar",
+    "Age": 21,
+    "Number": 9898989898,
+    "Qualification": [
+      { "qualificationname": "10th", "passingyear": 2018, "percentage": 42 },
+      { "qualificationname": "12th", "passingyear": 2020, "percentage": 60 }
+    ]
+  },
+  {
+    "id": 104,
+    "Name": "gaurav",
+    "Address": "bageshwar",
+    "Age": 22,
+    "Number": 9898898989,
+    "Qualification": [
+      { "qualificationname": "10th", "passingyear": 2023, "percentage": 98 },
+      { "qualificationname": "12th", "passingyear": 2024, "percentage": 95 }
+    ]
+  }
+]
