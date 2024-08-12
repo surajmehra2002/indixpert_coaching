@@ -24,7 +24,6 @@ def toppers(JSON_file):
                 no = no + item["percentage"]
             topper.append(no)
         topper3 = sorted(topper, reverse=True)[:3] 
-
         for student in data:
             no = 0
             for item in student["Qualification"]:
@@ -48,16 +47,24 @@ def toppers(JSON_file):
         print(sorted_students)      
         print("\n All student record in details..\n")      
 
+
+        detail_topper_list = [None,None,None]
         for student in data:
             no = 0
+            
             for item in student["Qualification"]:
                 no = no + item["percentage"]
             if no == topper3[0]:
-                print(student)
+                # this student will first
+                detail_topper_list[0] = student
             if no == topper3[1]:
-                print(student)
+                # this student will second
+                detail_topper_list[1] = student
             if no == topper3[2]:
-                print(student)
+                # this student will third
+                detail_topper_list[2] = student
+
+        print(json.dumps(detail_topper_list, indent=2))
 
                    
     

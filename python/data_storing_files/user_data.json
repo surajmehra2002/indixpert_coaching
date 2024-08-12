@@ -6,8 +6,8 @@
     "Age": 21,
     "Number": 9634912165,
     "Qualification": [
-      { "qualificationname": "10th", "passingyear": 2018, "percentage": 78 },
-      { "qualificationname": "12th", "passingyear": 2020, "percentage": 82 }
+      { "qualificationname": "10th", "passingyear": 2018, "percentage": 80 },
+      { "qualificationname": "12th", "passingyear": 2020, "percentage": 80 }
     ]
   },
   {
@@ -17,8 +17,8 @@
     "Age": 21,
     "Number": 9898989898,
     "Qualification": [
-      { "qualificationname": "10th", "passingyear": 2018, "percentage": 72 },
-      { "qualificationname": "12th", "passingyear": 2020, "percentage": 86 }
+      { "qualificationname": "10th", "passingyear": 2018, "percentage": 90 },
+      { "qualificationname": "12th", "passingyear": 2020, "percentage": 90 }
     ]
   },
   {
@@ -28,8 +28,8 @@
     "Age": 22,
     "Number": 9898989898,
     "Qualification": [
-      { "qualificationname": "10th", "passingyear": 2018, "percentage": 62 },
-      { "qualificationname": "12th", "passingyear": 2020, "percentage": 50 }
+      { "qualificationname": "10th", "passingyear": 2018, "percentage": 85 },
+      { "qualificationname": "12th", "passingyear": 2020, "percentage": 85 }
     ]
   },
   {
@@ -50,8 +50,39 @@
     "Age": 22,
     "Number": 9898898989,
     "Qualification": [
-      { "qualificationname": "10th", "passingyear": 2023, "percentage": 98 },
+      { "qualificationname": "10th", "passingyear": 2023, "percentage": 18 },
       { "qualificationname": "12th", "passingyear": 2024, "percentage": 95 }
+    ]
+  },
+  {
+    "id": 15,
+    "Name": "roy",
+    "Address": "kapkot",
+    "Age": 23,
+    "Number": 89898989565,
+    "Qualification": [
+      { "qualificationname": "10th", "passingyear": 2023, "percentage": 90 }
+    ]
+  },
+  {
+    "id": 2,
+    "Name": "deep",
+    "Address": "bgr",
+    "Age": 21,
+    "Number": 32423423423,
+    "Qualification": [
+      { "qualificationname": "10th", "passingyear": 2000, "percentage": 90 }
+    ]
+  },
+  {
+    "id": 4,
+    "Name": "deepak",
+    "Address": "bgr",
+    "Age": 24,
+    "Number": 9898989898,
+    "Qualification": [
+      { "qualificationname": "10th", "passingyear": 2020, "percentage": 100 },
+      { "qualificationname": "12th", "passingyear": 2023, "percentage": 100 }
     ]
   }
 ]
