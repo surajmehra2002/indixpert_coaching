@@ -1,6 +1,10 @@
 import os
+import shutil
 
-file_path = r"S:\indixpert_coaching\python\temp\bug\temp.txt"
+file_path = r"S:\indixpert_coaching\python\some_other_imp\backup\temp.txt"
+
+backup_file_path = r"S:\indixpert_coaching\python\some_other_imp\backup\backup_temp.txt"
+
 
 
 
@@ -8,12 +12,16 @@ def delete_file():
     try:        
         response = input("Are you want to remove this? Y/N ")
         if response=="Y":
+            shutil.copy2(file_path, backup_file_path)
             os.remove(file_path)
             print(f"file has been removed.")
             response1 = input("Your file unfortunately deleted?  and want to backup? Y/N ")
             if response1=="Y":
-                backup_file(backup_line)
+                shutil.copy2(backup_file_path, file_path)
+                os.remove(backup_file_path)
+                print("Successfully recorver your file")
             else:
+                 os.remove(backup_file_path)
                  print("Your file permanentaly deleted..")
             
         else:
@@ -34,11 +42,8 @@ def backup_file(backup_line):
         except Exception as e:
             print(f"file not backuped because Error:{e}")
     
-
-if os.path.exists(file_path):   
-    backup_file_path = file_path    
-    with open(file_path) as file:
-                backup_line = file.read()
+# we will check file exists or not
+if os.path.exists(file_path): 
     delete_file() # this method will delete file
 
     
